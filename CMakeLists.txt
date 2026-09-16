@@ -11,3 +11,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(middleware
     apps/middleware/main.cpp
 )
+
+target_compile_options(middleware PRIVATE
+    -Wall
+    -Wextra
+    -Wpedantic
+)
