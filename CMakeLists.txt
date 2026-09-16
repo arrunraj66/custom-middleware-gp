@@ -12,6 +12,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 include(CTest)
 
+add_subdirectory(third_party)
 add_subdirectory(src)
 add_subdirectory(apps)
 
