@@ -33,3 +33,8 @@ add_middleware_test(
     message_test
     message_test.cpp
 )
+
+add_middleware_test(
+    message_callback_test
+    message_callback_test.cpp
+)
