@@ -10,9 +10,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+
 include(CTest)
 
 add_subdirectory(third_party)
+add_subdirectory(proto)
 add_subdirectory(src)
 add_subdirectory(apps)
 
