@@ -38,3 +38,14 @@ add_middleware_test(
     message_callback_test
     message_callback_test.cpp
 )
+
+add_middleware_test(
+    message_serializer_test
+    message_serializer_test.cpp
+)
+
+target_link_libraries(
+    message_serializer_test
+    PRIVATE
+        custom_middleware::messages
+)

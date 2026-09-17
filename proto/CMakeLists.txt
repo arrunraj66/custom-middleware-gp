@@ -24,6 +24,7 @@ target_link_libraries(custom_middleware_messages
 )
 
 target_include_directories(custom_middleware_messages
+    SYSTEM
     PUBLIC
         ${PROTO_GENERATED_DIRECTORY}
 )
